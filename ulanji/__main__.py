@@ -11,7 +11,7 @@ Attributes:
 import sys
 import qdarkstyle
 from PyQt5 import QtCore, QtGui, QtWidgets, QtWebEngineWidgets, uic
-from ulanji.gui.main_window import MainWindow
+from gui.main_window import MainWindow
 
 
 def main():
