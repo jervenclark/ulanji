@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ulanji-jervenclark", # Replace with your own username
-    version="0.0.1",
+    name="ulanji", # Replace with your own username
+    version="0.0.2",
     author="Jerven Clark Chua",
     author_email="jervenclark@gmail.com",
     description="Distraction free markdown editor",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GPL License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
