@@ -9,6 +9,7 @@ Attributes:
     window (MainWindow): window class invoked to render the ui
 '''
 import sys
+import qdarkstyle
 from PyQt5 import QtCore, QtGui, QtWidgets, QtWebEngineWidgets, uic
 from ulanji.gui.main_window import MainWindow
 
@@ -16,6 +17,9 @@ from ulanji.gui.main_window import MainWindow
 def main():
     app = QtWidgets.QApplication(sys.argv)
     window = MainWindow()
+
+    app.setStyleSheet(qdarkstyle.load_stylesheet_pyqt5())
+
     window.show()
     sys.exit(app.exec_())
 

@@ -1,0 +1,2 @@
+include ulanji/assets/*.*
+include ulanji/assets/**/*.*
