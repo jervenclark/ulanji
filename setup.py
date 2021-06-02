@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     python_requires = '>=3.6',
     install_requires = [
-        'markdown2==2.3.9',
+        'markdown2==2.4.0',
         'PyQt5==5.15.0',
         'PyQtWebEngine==5.15.0',
         'QDarkStyle==2.8.1',
